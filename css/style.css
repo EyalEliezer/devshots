@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body{
+  direction:rtl;
+  font-family:'Open Sans Hebrew', sans-serif;
+  background-color: #212229;
+}
+
+
+.u-container{
+  width: 75%;
+  margin: 0 auto;
+}
+.u-container2{
+  width: 87%;
+  margin: 0 auto;
+}
+/*.inline{
+  display: block;
+}*/
+/*Navbar menu CSS section*/
+.Navbar{
+  position: fixed;
+  top:0;
+  height: 117px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px bottom solid #fff;
+  z-index: 99999;
+}
+.Navbar-container{
+  height: 97px;
+  width: 90%;
+  margin: 0 auto;
+}
+.Navbar-nav{
+  float: right;
+  margin: 43px 0 18px 0;
+  padding: 0;
+}
+.Navbar-nav li{
+display: inline;
+}
+.Navbar-nav li a{
+  transition: color 0.5s ease;
+  color:#212229;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.Navbar-nav li a:hover{
+  color: #f42853;
+}
+.Navbar-nav-mobile{
+  margin: 25px;
+  text-align: center;
+  background:#333;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 10%;
+  width: 30px;
+  visibility: hidden;
+  float: right;
+}
+#DevshotsLogo{
+  margin-top: 15px;
+  float: left;
+}
+
+@media (max-width: 799px) {
+  .Navbar-nav {
+    display: none;
+  }
+  .Navbar-container {
+    width: 100%;
+  }
+  .Navbar-nav-mobile{
+    visibility: visible;
+  }
+
+  }
+
+@media (max-width:490px){
+  #DevshotsLogo{
+    width: 56%;
+  }
+}
+@media (max-width:344px){
+  #DevshotsLogo{
+    padding-left: 32px;
+    width: 60%;
+  }
+}
+/*End of Nav bar*/
+
+
+/*Home CSS section*/
+section#home{
+  /*background-image: image(Images/devshots_bg.png);*/
+}
+
+.Home-screen{
+  width: 100%;
+  height: 230px;
+}
+.Home-container{
+  background: url("http://netcraft.co.il/devshots/img/devshots_bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 105px;
+}
+.Home-wraper{
+  width:90%;
+  margin: 0 auto;
+}
+img.home-bg{
+  margin-top: 117px;
+  height: 100%;
+  width: 100%;
+}
+img.home-bg.mobile{
+  visibility: hidden;
+  margin-top:0;
+  height:0;
+  width:0;
+}
+.Home-content{
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 10%;
+}
+h2.event-main-title{
+  font-size:40px;
+  margin-top: 54.2px;
+  margin-bottom: 13.2px;
+}
+.event-details p{
+  margin: 0;
+  font-size: 26px;
+  line-height: 37.1429px;
+}
+h4.event-time{
+    color: #ffffff;
+    margin: 20px 0 0;
+    padding: 0;
+    font-size: 27px;
+    font-weight: normal;
+}
+a.subscribe-btn{
+  text-decoration: none;
+  display: block;
+  background-color: #eb3f57;
+  width:300px;
+  line-height: 2;
+  margin: 20px 0 0 0;
+  line height: 2;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  box-shadow: 0px 4px 0px 0px #a54146;
+}
+a.subscribe-btn:hover{
+  background-color: #d31e44;
+}
+.title-container{
+  width: 95%;
+  margin:0 auto;
+}
+.pinkTitle{
+  color:#d42e44;
+  font-size: 40px;
+}
+span.timeBox{
+  /*float: left;*/
+  display: block;
+  line-height: 34px;
+  font-size: 22px;
+  color: white;
+  border: solid 1px white;
+  width: 228px;
+  height: 38px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.timeboxContainer{
+  padding-top: 15px;
+  display:block;
+}
+/*lectures */
+
+li.lecture-item{
+
+}
+.main-description h2{
+  color: white;
+}
+
+.lectures {
+  color: white
+}
+
+.lecture-item{
+  list-style: none;
+}
+.lectureItemDescription{
+  padding-right: 40px;
+}
+
+h3.lectureItemDescription{
+  color:#FF1D3D;
+}
+.lecture-item:hover .main-description:first-child {
+  display:none;
+}
+
+.lecture-item:hover .secondry-description:last-child {
+  display:block;
+}
+
+.lecture-item .secondry-description:last-child {
+  display:none;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.sub-container{
+  background-color: #101115;
+  color: white;
+
+
+}
+
+.form-wrap{
+  float: right;
+  width: auto;
+}
+.form-item{
+  border: none;
+  width: 300px;
+  border-top: 4px solid #F0F0F0;
+  height: 38px;
+  float: left;
+}
+form label{
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 55px;
+}
+.subscribe h2{
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 40px;
+
+}
+
+.subscribe p{
+  font-size: 20px;
+}
+
+.subscribe .subscribe-btn{
+  float: left;
+}
